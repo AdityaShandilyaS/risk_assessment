@@ -1,0 +1,8 @@
+,hyperparameters,cross_val_score,precision,recall,f1_score,time_taken,comments
+0,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.6666666666666666,0.7857142857142857,0.6875,0.7333333333333333,0.0224153995513916,testing
+1,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.7777777777777778,0.7857142857142857,0.6875,0.7333333333333333,0.0224153995513916,testing
+2,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.7777777777777778,0.7857142857142857,0.6875,0.7333333333333333,0.0224153995513916,testing
+,hyperparameters,cross_val_score,precision,recall,f1_score,time_taken,comments
+0,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.6666666666666666,0.7857142857142857,0.6875,0.7333333333333333,0.02320098876953125,testing
+1,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.7777777777777778,0.7857142857142857,0.6875,0.7333333333333333,0.02320098876953125,testing
+2,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.7777777777777778,0.7857142857142857,0.6875,0.7333333333333333,0.02320098876953125,testing

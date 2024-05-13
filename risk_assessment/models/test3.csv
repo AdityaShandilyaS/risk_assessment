@@ -1,0 +1,16 @@
+,hyperparameters,cross_val_score,precision,recall,f1_score,time_taken,comments
+0,"<bound method BaseEstimator.get_params of DecisionTreeClassifier(max_depth=8, min_samples_split=4, splitter='random')>",0.5555555555555556,0.7333333333333333,0.6875,0.7096774193548387,0.02234482765197754,testing
+1,"<bound method BaseEstimator.get_params of DecisionTreeClassifier(max_depth=8, min_samples_split=4, splitter='random')>",0.7777777777777778,0.7333333333333333,0.6875,0.7096774193548387,0.02234482765197754,testing
+2,"<bound method BaseEstimator.get_params of DecisionTreeClassifier(max_depth=8, min_samples_split=4, splitter='random')>",0.5555555555555556,0.7333333333333333,0.6875,0.7096774193548387,0.02234482765197754,testing
+,hyperparameters,cross_val_score,precision,recall,f1_score,time_taken,comments
+0,"<bound method BaseEstimator.get_params of DecisionTreeClassifier(max_depth=8, min_samples_split=4, splitter='random')>",0.5555555555555556,0.625,0.625,0.625,0.027006864547729492,testing
+1,"<bound method BaseEstimator.get_params of DecisionTreeClassifier(max_depth=8, min_samples_split=4, splitter='random')>",0.4444444444444444,0.625,0.625,0.625,0.027006864547729492,testing
+2,"<bound method BaseEstimator.get_params of DecisionTreeClassifier(max_depth=8, min_samples_split=4, splitter='random')>",0.5555555555555556,0.625,0.625,0.625,0.027006864547729492,testing
+,hyperparameters,cross_val_score,precision,recall,f1_score,time_taken,comments
+0,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.5555555555555556,0.7692307692307693,0.625,0.6896551724137931,0.023241281509399414,testing
+1,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.7777777777777778,0.7692307692307693,0.625,0.6896551724137931,0.023241281509399414,testing
+2,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.7777777777777778,0.7692307692307693,0.625,0.6896551724137931,0.023241281509399414,testing
+,hyperparameters,cross_val_score,precision,recall,f1_score,time_taken,comments
+0,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.6666666666666666,0.7692307692307693,0.625,0.6896551724137931,0.021750211715698242,testing
+1,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.7777777777777778,0.7692307692307693,0.625,0.6896551724137931,0.021750211715698242,testing
+2,<bound method BaseEstimator.get_params of DecisionTreeClassifier()>,0.7777777777777778,0.7692307692307693,0.625,0.6896551724137931,0.021750211715698242,testing

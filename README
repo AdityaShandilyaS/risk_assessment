@@ -1,0 +1,20 @@
+A simple package to assess risk of attrition in workplaces. Submit a file in the CLI to predict attrition risk with a pre-trained model.
+
+The training is for datasets with columns: Corporation name, lastmonth_activity, lastyear_activity, number of employees and the label column: exited.
+Push training sets in the above format into the inputdata folder to add to training samples, train new models and predict with the CLI
+
+This version avails the user to tinker with decision tree models by changing 3 hyperparameters: splitter, max_depth and min_samples_split
+
+CLI TEMPLATES
+
+training a decision tree model:
+
+risk_assessment/main.py train -m <modelname> -s <splitter value> -md <max_depth> -mss <min_samples_split>
+
+e.g.: risk_assessment/main.py train -m mark1 -s 'random' -md 4 -mss 5
+
+predicting using a trained model:
+
+risk_assessment/main.py predict -d <dataset csv name> -m <modelname>
+
+e.g.: risk_assessment/main.py predict -d dataset3.csv -m mark1

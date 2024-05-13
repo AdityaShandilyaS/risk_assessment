@@ -1,0 +1,9 @@
+A simple package to assess risk of attrition in workplaces. Submit a file in the CLI to predict attrition risk with a pre-trained model.
+
+The training is for datasets with columns: Corporation name, lastmonth_activity, lastyear_activity, number of employees and the label column: exited.
+Push training sets in the above format into the inputdata folder to add to training samples, train new models and predict with the CLI
+
+This version avails the user to tinker with decision tree models by changing 3 hyperparameters: splitter, max_depth and min_samples_split
+
+CLI examples:
+
