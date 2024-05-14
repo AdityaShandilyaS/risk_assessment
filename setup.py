@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="risk_assessment",
-    version="1.0.0",
+    version="1.1.0",
     author="Aditya Shandilya",
     author_email="aditya.shandilya.2693@gmail.com",
     url="https://github.com/AdityaShandilyaS/risk_assessment.git",
