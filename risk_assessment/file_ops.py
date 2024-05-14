@@ -134,9 +134,9 @@ class FileSystem:
         print('Done. Find predictions in the predictions folder')
 
 
-if __name__ == '__main__':
-    print(os.getcwd())
-    file = 'file_ops.py'
-    print(Path.cwd())
-    print(os.path.dirname(__file__))
-    print(Path(os.path.dirname(__file__)).parents[0])
+# if __name__ == '__main__':
+#     print(os.getcwd())
+#     file = 'file_ops.py'
+#     print(Path.cwd())
+#     print(os.path.dirname(__file__))
+#     print(Path(os.path.dirname(__file__)).parents[0])

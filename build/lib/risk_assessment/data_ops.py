@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import file_ops
+from file_ops import FileSystem
 import time
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import cross_val_score, cross_val_predict
@@ -11,7 +11,7 @@ import os
 
 class MLModule:
     def __init__(self, model='default'):
-        self.fileops = file_ops.FileSystem()
+        self.fileops = FileSystem()
         self.training_df = self.fileops.import_training_dataset()
         self.X = self.fileops.load_cleaned_dataset()
         self.model_name = model
