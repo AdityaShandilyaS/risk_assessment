@@ -1,5 +1,5 @@
-import file_ops
-import data_ops
+from risk_assessment import file_ops
+from risk_assessment import data_ops
 import argparse
 import os
 
